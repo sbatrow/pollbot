@@ -1,27 +1,18 @@
+sentry-sdk
+alembic
+python-telegram-bot
+SQLAlchemy
+sqlalchemy-utils
+psycopg2-binary
+python-dateutil
+toml
+python-i18n
+matplotlib
+pandas
+pillow
+argparse
+black
+typer
+types-toml
 
-sentry-sdk = "^1"
-alembic = "^1"
-python-telegram-bot = "^13"
-SQLAlchemy = "^1"
-sqlalchemy-utils = "^0.38"
-psycopg2-binary = "^2"
-python-dateutil = "^2"
-toml = "^0.10"
-python-i18n = { version="^0.3", extras=["yaml"] }
-
-matplotlib = "^3"
-pandas = "^1"
-pillow = "^9"
-argparse = "^1"
-"ruamel.yaml" = "^0.17"
-
-[tool.poetry.dev-dependencies]
-pytest = "^7"
-black = { version="*", allow-prereleases=true }
-typer = "^0.4"
-types-toml = "&0.10"
-
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
 
